@@ -1,5 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-www.wired.com	TRUE	/	FALSE	1999999999	CN_xid	58967d74-32f2-4084-b7ed-35a3ddcfce8e
-www.wired.com	TRUE	/	FALSE	1999999999	xid1	1
-
