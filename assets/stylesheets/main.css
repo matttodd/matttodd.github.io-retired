@@ -65,3 +65,33 @@ GRID
     width: 960px;
 }
 
+/*
+Typography
+*/
+
+h1, h3, p {
+    margin-bottom: 22px;
+}
+
+/*
+Button
+*/
+
+.btn {
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0;
+}
+
+.btn-alt {
+    border: 1px solid #e6ac00;
+    padding: 10px 30px;
+}
+
+/*
+Home
+*/
+
+.hero {
+    padding: 22px 80px 22px 80px;
+}
