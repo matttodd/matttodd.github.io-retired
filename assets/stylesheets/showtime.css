@@ -46,3 +46,24 @@ table {
   border-spacing: 0;
 }
 
+/*
+Section coloring
+*/
+
+.firstSection {
+
+    background: #8ee4af;
+}
+
+.secondSection {
+    background: #5cdb95;
+}
+
+.thirdSection {
+    background: #379683;
+}
+
+.profile {
+    margin: 4%;
+    border-radius: 50%;
+}
