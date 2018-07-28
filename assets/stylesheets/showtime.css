@@ -63,7 +63,22 @@ Section coloring
     background: #379683;
 }
 
+/*
+Image content spacing
+*/
+
 .profile {
     margin: 4%;
     border-radius: 50%;
+    width: 25%;
+}
+
+.descriptor {
+    float: right;
+    margin: 5%;
+    width: 55%;
+}
+
+h1 {
+    margin-bottom: 2%;
 }
