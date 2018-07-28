@@ -122,3 +122,21 @@ section {
   clear: both;
   *zoom: 1;
 }
+
+/*
+Buttons
+*/
+
+.btn {
+    boarder: 4px solid #05386B;
+    margin: 0 1.5%;
+    width: 35%;
+}
+
+.leftBtn {
+    float: left;
+}
+
+.rightBtn {
+    float: right;
+}
