@@ -47,6 +47,30 @@ table {
 }
 
 /*
+Typography
+*/
+
+html {
+    color: #05386B;
+}
+
+body {
+    line-height: 3vw;
+    font-family: Garamond, serif;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 220%;
+    font-size: 3.6vw;
+}
+
+p {
+    font-size: 180%;
+    font-size: 3vw;
+}
+
+/*
 Section coloring
 */
 
@@ -75,10 +99,26 @@ Image content spacing
 
 .descriptor {
     float: right;
-    margin: 5%;
-    width: 55%;
+    text-align: center;
+    margin: 3%;
+    margin-left: 0px;
+    width: 60%;
 }
 
 h1 {
     margin-bottom: 2%;
+    text-align: center;
+}
+
+section:before,
+section:after {
+  content: "";
+  display: table;
+}
+section:after {
+  clear: both;
+}
+section {
+  clear: both;
+  *zoom: 1;
 }
