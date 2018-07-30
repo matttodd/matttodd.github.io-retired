@@ -53,27 +53,48 @@ Typography
 html {
 }
 
-h2 {
-    margin: 1%;
-    text-align: center;
-    float: left;
-    width: 23%;
+.menu {
+    clear: both;
 }
 
-.menu {
+.btn {
     background-color: rgba(0, 0, 0, .5);
+    padding: 2%;
+    text-align: center;
+    float: left;
+    width: 21%;
+    transition: background-color .5s;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 body {
     line-height: 3vw;
-    font-family: Garamond, serif;
+    font-family: fantasy, Garamond, serif;
+}
+
+a {
+    color: black;
+    transition: color 1s;
+}
+
+a:hover {
+    color: white;
 }
 
 /*
 BACKGROUND
 */
 
-/*.back {
+.back {
   background-color: #44318D;
   background-image: url(desatbg.jpg);
   background-attachment: fixed;
@@ -84,5 +105,5 @@ BACKGROUND
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-}*/
+}
 
