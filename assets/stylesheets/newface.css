@@ -59,8 +59,9 @@ html {
 
 .btn {
     background-color: rgba(0, 0, 0, .5);
-    padding: 2%;
+    padding: 1vw 2vw;
     text-align: center;
+    font-size: 3vw;
     float: left;
     width: 21%;
     transition: background-color .5s;
@@ -107,3 +108,15 @@ BACKGROUND
   overflow: hidden;
 }
 
+/*
+Section Content
+*/
+
+.content {
+  text-align: center;
+}
+
+.title {
+  padding: 10vh;
+  font-size: 15vw;
+}
