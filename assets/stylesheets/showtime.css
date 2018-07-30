@@ -67,7 +67,7 @@ h1 {
 
 p {
     font-size: 180%;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 
 /*
@@ -128,8 +128,8 @@ Buttons
 */
 
 .btn {
-    boarder: 4px solid #05386B;
-    margin: 0 1.5%;
+    boarder: 10px solid #05386B;
+    margin: 2%;
     width: 35%;
 }
 
