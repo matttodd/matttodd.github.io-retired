@@ -120,4 +120,12 @@ Section Content
     padding: 10vh;
     font-size: 12vw;
     font-size: calc(60px + 3vw);
+    display: none;
+}
+
+.profile {
+    margin: 4%;
+    border-radius: 50%;
+    float: left;
+    width: calc(120px + 3vw);
 }
