@@ -55,13 +55,14 @@ html {
 
 .menu {
     clear: both;
+    font-weight: 600;
 }
 
 .btn {
     background-color: rgba(0, 0, 0, .5);
     padding: 2vh 2vw;
     text-align: center;
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(12px + 1vw);
     float: left;
     width: 21%;
     transition: background-color .5s;
@@ -79,7 +80,8 @@ html {
 
 body {
     line-height: 3vw;
-    font-family: fantasy, Garamond, serif;
+    font-family: serif;
+    font-weight: normal;
 }
 
 a {
@@ -114,6 +116,7 @@ Section Content
 
 .content {
     text-align: center;
+    font-size: 3vw;
 }
 
 .title {
@@ -125,7 +128,27 @@ Section Content
 
 .profile {
     margin: 4%;
-    border-radius: 50%;
+    margin-right: 0%;
+    border-radius: 25%;
     float: left;
     width: calc(120px + 3vw);
 }
+
+.quote {
+    margin: 4%;
+    margin-top: calc((60px - 2vw) + 2vw);
+    width: calc((100vw - 120px) - 15vw);
+    float: right;
+}
+
+.icon {
+    margin: 5%;
+    margin-top: calc((100vw - 480px) - 15vw);
+    float: left;
+    width: 15%;
+    border-radius: 50%;
+}
+
+/*
+FOOTER
+*/
