@@ -143,6 +143,7 @@ Section Content
 
 .icon {
     margin: 5%;
+    margin-top: 0%;
     float: left;
     width: 15%;
     border-radius: 50%;
