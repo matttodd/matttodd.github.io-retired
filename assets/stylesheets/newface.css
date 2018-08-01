@@ -147,6 +147,12 @@ Section Content
     float: left;
     width: 15%;
     border-radius: 50%;
+    opacity: .5;
+    transition: opacity 2s;
+}
+
+.icon:hover {
+    opacity: 1;
 }
 
 /*
