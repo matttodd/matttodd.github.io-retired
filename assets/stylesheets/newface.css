@@ -178,7 +178,17 @@ ABOUT ME BODY
     transition: opacity 2s;
 }
 
+.infopic {
+    position: absolute;
+    bottom: 8%;
+    margin: 4%;
+    opacity: 0;
+    transition: opacity 2s;
+    width: 92%;
+}
+
 .triple {
+    position: relative;
     float: left;
     background-color: rgba(255, 255, 255, 0);
     width: 33.33vw;
@@ -193,3 +203,8 @@ ABOUT ME BODY
 .triple:hover .infome {
     opacity: 1;
 }
+
+.triple:hover .infopic {
+    opacity: 1;
+}
+
