@@ -53,6 +53,10 @@ Typography
 html {
 }
 
+strong {
+    font-weight: 900;
+}
+
 .menu {
     clear: both;
     font-weight: 600;
@@ -80,7 +84,7 @@ html {
 
 body {
     line-height: 3vw;
-    font-family: serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -90,6 +94,11 @@ a {
 }
 
 a:hover {
+    color: white;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 1);
     color: white;
 }
 
@@ -159,6 +168,16 @@ Section Content
 ABOUT ME BODY
 */
 
+.infome {
+    margin: 10%;
+    margin-top: 5%;
+    height: 50%;
+    line-height: calc(120% + .5vw);
+    font-size: calc(60% + .5vw);
+    opacity: 0;
+    transition: opacity 2s;
+}
+
 .triple {
     float: left;
     background-color: rgba(255, 255, 255, 0);
@@ -169,4 +188,8 @@ ABOUT ME BODY
 
 .triple:hover {
     background-color: rgba(255, 255, 255, .2);
+}
+
+.triple:hover .infome {
+    opacity: 1;
 }
