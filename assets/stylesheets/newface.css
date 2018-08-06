@@ -169,9 +169,8 @@ ABOUT ME BODY
 */
 
 .infome {
-    margin: 10%;
-    margin-top: 5%;
-    height: 50%;
+    margin: 5% 10% 0% 10%;
+    height: auto;
     line-height: calc(120% + .5vw);
     font-size: calc(60% + .5vw);
     opacity: 0;
@@ -179,8 +178,7 @@ ABOUT ME BODY
 }
 
 .infopic {
-    position: absolute;
-    bottom: 8%;
+    position: static;
     margin: 4%;
     opacity: 0;
     transition: opacity 2s;
