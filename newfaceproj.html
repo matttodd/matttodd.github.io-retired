@@ -13,9 +13,37 @@
         <a class="btn selected" href="newfaceproj.html">PROJECTS</a>
         <a class="btn" href="mailto:matttodd6@gmail.com?subject=You%20Are%20My%20Inspiration!">CONTACT</a>
     </header>
-    <section class="content">
-        <h1 class="title">Projects</h1>
+    <section>
+        <button class="collapsible">Project 1</button>
+        <div class="proj">
+            <p>Placeholder text in order to show that this will appear when the section is expanded</p>
+        </div>
+        <button class="collapsible">Project 2</button>
+        <div class="proj">
+            <p>Placeholder text in order to show that this will appear when the section is expanded</p>
+        </div>
+        <button class="collapsible">Project 3</button>
+        <div class="proj">
+            <p>Placeholder text in order to show that this will appear when the section is expanded</p>
+        </div>
     </section>
 </div>
+
+<script>
+var col = document.getElementsByClassName("collapsible");
+
+for (var i = 0; i < col.length; i++) {
+  col[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
 </body>
 </html>
