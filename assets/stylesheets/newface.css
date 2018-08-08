@@ -220,7 +220,8 @@ PROJECTS TABS
     width: 100%;
     text-align: center;
     outline: none;
-    font-size: 100%;
+    font-size: 150%;
+    font-weight: 600;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: 20px;
@@ -244,6 +245,7 @@ PROJECTS TABS
 .desc {
     float: left;
     width: 75%;
+    font-weight: 500;
 }
 
 .projphoto {
