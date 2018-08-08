@@ -88,12 +88,15 @@ body {
     font-weight: normal;
 }
 
-a {
-    color: black;
+.faded {
     transition: color 1s;
 }
 
-a:hover {
+a {
+    color: black;
+}
+
+.faded:hover {
     color: white;
 }
 
@@ -211,19 +214,23 @@ PROJECTS TABS
 */
 
 .collapsible {
-    background-color: #777;
-    color: white;
+    color: white
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
-    font-size: 15px;
+    font-size: 100%;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 20px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: rgba(255, 255, 255, .4);
 }
 
 .proj {
@@ -231,5 +238,16 @@ PROJECTS TABS
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.desc {
+    float: left;
+    width: 75%;
+}
+
+.projphoto {
+    float: right;
+    max-height:100%;
+    width: 25%;
 }
