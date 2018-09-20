@@ -176,7 +176,7 @@ ABOUT ME BODY
     height: auto;
     line-height: calc(120% + .5vw);
     font-size: calc(60% + .5vw);
-    opacity: 0;
+    opacity: .1;
     transition: opacity 2s;
 }
 
@@ -191,7 +191,7 @@ ABOUT ME BODY
 .triple {
     position: relative;
     float: left;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, .0);
     width: 33.33vw;
     height: 100vh;
     transition: background-color 2s;
